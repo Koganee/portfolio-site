@@ -10,7 +10,7 @@ const EnterButton = () => {
     };
 
     return(
-        <button className="btn spaced-div" onClick={handleClick}>Enter</button>    
+        <button className="btn spaced-div" onClick={handleClick} style={{ marginRight: '-1.7rem' }}>Enter</button>    
     )
 }
 
