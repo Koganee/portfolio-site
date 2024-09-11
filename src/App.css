@@ -68,3 +68,21 @@
   from, to { border-color: transparent }
   50% { border-color: rgb(0, 0, 0); }
 }
+
+.dialog-text
+{
+  color: black
+}
+
+.standard-dialog:hover{
+  background-color: rgb(0, 0, 0);
+}
+.standard-dialog:hover .dialog-text {
+  color: white; /* Text color change inside the hovered element */
+}
+
+.about-me{
+  width: 700px; /* Set a fixed width */
+  height: 900px; /* Set a fixed height */
+  overflow: hidden; /* Hide overflow content */
+}

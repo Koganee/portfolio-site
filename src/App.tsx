@@ -6,6 +6,7 @@ import React, { useState } from "react";
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter as Router, Route, Routes, useNavigate } from 'react-router-dom';
 import EnterButton from './components/EnterButton';
+import AboutMe from './components/AboutMe';
 
 function App() {
   
@@ -16,6 +17,7 @@ function App() {
         <Routes>
             <Route path="/home" element={<MainPage></MainPage>}/>
             <Route path="/" element = {<NavBar />}/>
+            <Route path="/about-me" element = {<AboutMe></AboutMe>}/>
         </Routes>
       </Router>
     </div>
