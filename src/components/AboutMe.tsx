@@ -1,5 +1,5 @@
 import Image from "./Image"
-
+import BackButton from "./BackButton"
 
 const AboutMe = () => {
     return(
@@ -19,6 +19,7 @@ const AboutMe = () => {
                 <p>I am always eager to challenge myself and improve, and consistently find enjoyment in learning new technologies. Areas that particularly interest me are web development, game development, and machine learning.</p>
             </div>
         </div>
+            <BackButton></BackButton>
         </div>
     )
 }
