@@ -1,10 +1,12 @@
 import Image from "./Image"
 import BackButton from "./BackButton"
+import FavouriteProjects from "./FavouriteProjects"
 
 const AboutMe = () => {
     return(
         <div>
         <Image></Image>
+        <div className="content-container">
         <div className="window about-me">
             <div className="title-bar">
                 <h1 className="title" style = {{color: "black"}}>About Me</h1>
@@ -18,6 +20,8 @@ const AboutMe = () => {
                 <p>I have experience in using multiple programming languages such as Java, Python, Javascript and HTML + CSS, among others, and am currently in the process of learning C++.</p>
                 <p>I am always eager to challenge myself and improve, and consistently find enjoyment in learning new technologies. Areas that particularly interest me are web development, game development, and machine learning.</p>
             </div>
+        </div>
+            <FavouriteProjects></FavouriteProjects>
         </div>
             <BackButton></BackButton>
         </div>

@@ -81,16 +81,10 @@
   color: white; /* Text color change inside the hovered element */
 }
 
-.about-me{
-  width: 700px; /* Set a fixed width */
-  height: 650px; /* Set a fixed height */
-  overflow: hidden; /* Hide overflow content */
-  margin-top: -800px;
-  margin-right: -550px;
-}
+
 .img{
   margin-left: -450px;
-  margin-top: -30px;
+  margin-top: -10px;
   margin-right: -20px;
 }
 .img2{
@@ -100,6 +94,72 @@
 }
 .back
 {
-  width: 700px;
+  align-self: center;
+  width: 600px;
   height: 150px;
+  position: relative;
+  margin-left: -0px;
+  margin-top: -350px;
 }
+/* Flex container for About Me and Favourite Projects */
+.content-container {
+  display: flex; /* Use flexbox to align items in a row */
+  justify-content: center; /* Center the content horizontally */
+  align-items: normal; /* Align items to the top */
+  gap: 20px; /* Space between the two components */
+  margin-top: -820px; /* Add some margin to the top */
+  margin-right: -500px;
+}
+
+/* About Me Component Styles */
+.about-me {
+  align-self: flex-start;
+  width: 600px; /* Set a fixed width */
+  height: auto; /* Let the height adjust automatically */
+  overflow: hidden; /* Hide overflow content */
+}
+
+.favourite-projects {
+  align-self: flex-start;
+  width: 500px; 
+  height: 750px;
+  
+}
+.back-button {
+  margin-top: -250px; /* Adjust as needed */
+  align-self: center; /* Center the button if needed */
+}
+
+.img3
+{
+  margin-top: 25px;
+  margin-left: 125px;
+}
+.img4
+{
+  margin-top: 25px;
+  margin-left: 125px;
+}
+.back2
+{
+  height: 50px;
+  width: 140px;
+  margin-right: 0px;
+}
+.projects-container {
+  display: flex;
+  flex-wrap: wrap; /* Optional, if you want items to wrap to the next line on smaller screens */
+  gap: 1rem; /* Add space between the items */
+  justify-content: space-between; /* Spread items evenly */
+  padding: 2rem;
+  height: 270px;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-left: 20px;
+}
+

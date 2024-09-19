@@ -13,7 +13,7 @@ const BackButton = () => {
     };
     
     return(
-        <div className="standard-dialog center scale-down" onClick={handleClick} style={{width:"44rem"}}>
+        <div className="standard-dialog center scale-down" onClick={handleClick} style={{width:"38rem"}}>
             <button className="btn back">Back</button>
         </div>
     )
